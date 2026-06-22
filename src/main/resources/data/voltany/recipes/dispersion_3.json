@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [{ "type": "forge:mod_loaded", "modid": "botania" }],
+  "pattern": [
+    "DDD",
+    "DXD",
+    "DDD"
+  ],
+  "key": {
+    "D": { "item": "botania:mana_diamond" },
+    "X": { "item": "voltany:dispersion_2" }
+  },
+  "result": { "item": "voltany:dispersion_3" }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [{ "type": "forge:mod_loaded", "modid": "botania" }],
+  "pattern": [
+    "EEE",
+    "EDE",
+    "EEE"
+  ],
+  "key": {
+    "E": { "item": "minecraft:ender_pearl" },
+    "D": { "item": "voltany:dispersion_1" }
+  },
+  "result": { "item": "voltany:dispersion_2" }
+}

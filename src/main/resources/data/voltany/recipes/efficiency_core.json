@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [{ "type": "forge:mod_loaded", "modid": "botania" }],
+  "pattern": [
+    "GRG",
+    "RDR",
+    "GRG"
+  ],
+  "key": {
+    "G": { "item": "minecraft:glowstone_dust" },
+    "R": { "item": "minecraft:redstone" },
+    "D": { "item": "botania:mana_diamond" }
+  },
+  "result": { "item": "voltany:efficiency_core" }
+}

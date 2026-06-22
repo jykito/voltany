@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [{ "type": "forge:mod_loaded", "modid": "botania" }],
+  "pattern": [
+    "MMM",
+    "RPR",
+    "MMM"
+  ],
+  "key": {
+    "M": { "item": "botania:manasteel_ingot" },
+    "R": { "item": "minecraft:redstone" },
+    "P": { "item": "botania:mana_pearl" }
+  },
+  "result": { "item": "voltany:mana_generator" }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [{ "type": "forge:mod_loaded", "modid": "botania" }],
+  "pattern": [
+    "RGR",
+    "GMG",
+    "RGR"
+  ],
+  "key": {
+    "R": { "item": "minecraft:redstone" },
+    "G": { "item": "minecraft:glowstone_dust" },
+    "M": { "item": "botania:manasteel_ingot" }
+  },
+  "result": { "item": "voltany:overclock_1" }
+}

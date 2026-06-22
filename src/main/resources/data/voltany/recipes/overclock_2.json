@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [{ "type": "forge:mod_loaded", "modid": "botania" }],
+  "pattern": [
+    "BBB",
+    "BOB",
+    "BBB"
+  ],
+  "key": {
+    "B": { "item": "minecraft:blaze_powder" },
+    "O": { "item": "voltany:overclock_1" }
+  },
+  "result": { "item": "voltany:overclock_2" }
+}

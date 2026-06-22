@@ -1,0 +1,32 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
+
+[[mods]]
+modId="voltany"
+version="${mod_version}"
+displayName="Voltany"
+authors="${mod_authors}"
+description='''${mod_description}'''
+
+[[dependencies.voltany]]
+    modId="forge"
+    mandatory=true
+    versionRange="${forge_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.voltany]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+# Botania — обязательная зависимость (это Botania-аддон). Грузимся ПОСЛЕ неё.
+[[dependencies.voltany]]
+    modId="botania"
+    mandatory=true
+    versionRange="*"
+    ordering="AFTER"
+    side="BOTH"

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "conditions": [{ "type": "forge:mod_loaded", "modid": "botania" }],
+  "pattern": [
+    " M ",
+    "MSM",
+    " M "
+  ],
+  "key": {
+    "M": { "item": "botania:manasteel_ingot" },
+    "S": { "item": "botania:spark" }
+  },
+  "result": { "item": "voltany:spark_resonator" }
+}
